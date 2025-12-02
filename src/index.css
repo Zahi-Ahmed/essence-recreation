@@ -7,46 +7,46 @@
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 200 20% 15%;
+    --foreground: 210 25% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 200 20% 15%;
+    --card-foreground: 210 25% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 200 20% 15%;
+    --popover-foreground: 210 25% 15%;
 
-    /* Forest green primary */
-    --primary: 95 20% 27%;
+    /* Teal blue primary */
+    --primary: 195 35% 28%;
     --primary-foreground: 0 0% 100%;
 
-    /* Light sage secondary */
-    --secondary: 85 40% 96%;
-    --secondary-foreground: 95 20% 27%;
+    /* Light blue secondary */
+    --secondary: 195 35% 96%;
+    --secondary-foreground: 195 35% 28%;
 
-    /* Lime green accent */
-    --accent: 85 55% 50%;
+    /* Teal blue accent */
+    --accent: 175 55% 45%;
     --accent-foreground: 0 0% 100%;
 
-    --muted: 85 20% 95%;
-    --muted-foreground: 200 10% 40%;
+    --muted: 195 20% 95%;
+    --muted-foreground: 210 10% 40%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 85 20% 90%;
-    --input: 85 20% 90%;
-    --ring: 85 55% 50%;
+    --border: 195 20% 90%;
+    --input: 195 20% 90%;
+    --ring: 175 55% 45%;
 
     --radius: 0.5rem;
 
-    /* Custom colors */
-    --hero-bg: 95 20% 27%;
-    --lime: 85 55% 50%;
-    --lime-light: 85 45% 60%;
-    --lime-dark: 85 60% 40%;
-    --dark-green: 170 25% 15%;
-    --sage: 85 40% 96%;
-    --sage-medium: 85 30% 92%;
+    /* Custom colors - Teal Blue theme */
+    --hero-bg: 195 35% 28%;
+    --lime: 175 55% 45%;
+    --lime-light: 175 45% 55%;
+    --lime-dark: 175 60% 35%;
+    --dark-green: 200 30% 15%;
+    --sage: 195 35% 96%;
+    --sage-medium: 195 25% 92%;
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;

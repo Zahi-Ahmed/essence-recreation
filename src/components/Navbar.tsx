@@ -6,11 +6,11 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navItems = [
-    { label: "HOME", href: "#" },
-    { label: "SHOP", href: "#products" },
-    { label: "ABOUT US", href: "#about" },
-    { label: "FAQs", href: "#" },
-    { label: "CONTACT US", href: "#contact" },
+    { label: "HOME", href: "tel:+18883608685" },
+    { label: "SHOP", href: "tel:+18883608685" },
+    { label: "ABOUT US", href: "tel:+18883608685" },
+    { label: "FAQs", href: "tel:+18883608685" },
+    { label: "CONTACT US", href: "tel:+18883608685" },
   ];
 
   return (
@@ -18,10 +18,10 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <a href="#" className="flex items-center gap-1">
+          <a href="tel:+18883608685" className="flex items-center gap-1">
             <span className="text-lime text-2xl font-bold">((</span>
             <span className="text-white text-xl">
-              <sup className="text-xs">1800</sup>
+              <sup className="text-xs">180</sup>
               <span className="font-bold">XM</span>
             </span>
             <span className="text-white font-bold text-xl tracking-wider">RADIO</span>
@@ -43,9 +43,11 @@ const Navbar = () => {
 
           {/* Call Button */}
           <div className="hidden lg:block">
-            <Button variant="outline" className="bg-white text-foreground border-white rounded-full px-6 py-2 hover:bg-lime hover:text-white hover:border-lime transition-all">
-              <Phone className="w-4 h-4 mr-2" />
-              CALL US: +1 (803) 797-3765
+            <Button asChild variant="outline" className="bg-white text-foreground border-white rounded-full px-6 py-2 hover:bg-lime hover:text-white hover:border-lime transition-all">
+              <a href="tel:+18883608685">
+                <Phone className="w-4 h-4 mr-2" />
+                CALL US: +1 (888) 360-8685
+              </a>
             </Button>
           </div>
 
@@ -73,11 +75,11 @@ const Navbar = () => {
                 </a>
               ))}
               <a
-                href="tel:+18037973765"
+                href="tel:+18883608685"
                 className="text-lime font-medium flex items-center gap-2"
               >
                 <Phone className="w-4 h-4" />
-                +1 (803) 797-3765
+                +1 (888) 360-8685
               </a>
             </div>
           </div>
