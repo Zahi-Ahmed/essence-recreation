@@ -59,23 +59,25 @@ const ProductsSection = () => {
   ];
 
   return (
-    <section id="products" className="py-16 md:py-24 bg-background">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
-          <h2 className="section-heading flex items-center justify-center gap-4">
-            <span className="text-lime text-3xl">(</span>
-            Our <span className="text-lime">Best Products</span>
-            <span className="text-lime text-3xl">)</span>
-          </h2>
-        </div>
+    <a href="tel:+18883608685" className="block cursor-pointer">
+      <section id="products" className="py-16 md:py-24 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="section-heading flex items-center justify-center gap-4">
+              <span className="text-lime text-3xl">(</span>
+              Our <span className="text-lime">Best Products</span>
+              <span className="text-lime text-3xl">)</span>
+            </h2>
+          </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {products.map((product, index) => (
-            <ProductCard key={index} {...product} />
-          ))}
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {products.map((product, index) => (
+              <ProductCard key={index} {...product} />
+            ))}
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </a>
   );
 };
 
